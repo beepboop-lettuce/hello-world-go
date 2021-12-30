@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(whatToSay)
 
 	for {
-
+		fmt.Print("-> ")
 		userInput, _ := reader.ReadString('\n')
 
 		response := doctor.Response(userInput)
